@@ -1,10 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+  font-family: 'Nanum Gothic', sans-serif, 'Courier New', Courier, monospace;
+  src: url("./fonts/NanumGothic-Regular.ttf") format("truetype");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #a5a56d 0%, #427ea7 100%);
+}
+
+button {
+  cursor: pointer
 }
 
 code {
